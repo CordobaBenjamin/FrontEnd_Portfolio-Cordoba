@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.bgNews {
+  mix-blend-mode: multiply;
+}
+
+.animate-slide {
+  animation: slide 15s linear infinite;
+}
+
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    background-color: red; /* Cambia el color de fondo a rojo al final */
+  }
+}
+
+.grayscale-image {
+  filter: grayscale(100%);
+}
+
+/* Al hacer hover sobre la imagen, elimina gradualmente el filtro de escala de grises */
+.grayscale-image:hover {
+  filter: grayscale(0%);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  html {
+    font-family: Roboto Slab, system-ui, sans-serif;
+  }
+}
+
+@layer base {
+  h1 {
+    text-align: start;
+    font-family: Playfair Display, system-ui, sans-serif;
+  }
+}
+
+
+.xljustify {
+  text-align: justify;
+ }
+ 
+
+@keyframes toggleGrayscale {
+  0% {
+    filter: grayscale(100%);
+  }
+  50% {
+    filter: grayscale(0%);
+  }
+  100% {
+    filter: grayscale(100%);
+  }
+}
+
+@keyframes brillo-opacidad {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.button-glow {
+  animation: brillo-opacidad 2.5s infinite;
+}
+
+.animate-photo {
+  animation: toggleGrayscale 4s infinite;
+}
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 3s infinite;
+}
+
+.dark {
+  background-color: #1d1d20;
+}
+
+.body-transition {
+  transition: background-color 5s, color 5s;
+}
