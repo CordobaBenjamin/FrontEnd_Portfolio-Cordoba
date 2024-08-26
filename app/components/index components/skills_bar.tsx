@@ -26,8 +26,8 @@ const Skills_bar = () => {
       class: `h-20 min-w-20 p-2rounded-xl  grayscale duration-1000 transition-all animate-photo`,
     },
     {
-      name: "Tailwind",
-      icon: "/tailwind_icon.png",
+      name: "Node.js",
+      icon: "/node.png",
       class: `h-20 min-w-20 py-5 p-2 rounded-xl grayscale duration-1000 transition-all animate-photo`,
     },
     {
@@ -36,9 +36,29 @@ const Skills_bar = () => {
       class: `h-20 min-w-20 p-2 rounded-xl grayscale duration-1000 transition-all animate-photo`,
     },
     {
-      name: "JavaScript",
-      icon: "/jsx_icon.png",
+      name: "C",
+      icon: "/C.png",
+      class: `h-20 min-w-20 py-5 p-2 rounded-xl grayscale duration-1000 transition-all animate-photo`,
+    },
+    {
+      name: "Jira",
+      icon: "/jira.png",
       class: `h-20 min-w-20 p-2 rounded-xl  grayscale duration-1000 transition-all animate-photo`,
+    },
+    {
+      name: "Git",
+      icon: "/git.png",
+      class: `h-20 min-w-20 p-2 rounded-xl  grayscale duration-1000 transition-all animate-photo`,
+    },
+    {
+      name: "Tailwind",
+      icon: "/tailwind_icon.png",
+      class: `h-20 min-w-20 py-5 p-2 rounded-xl grayscale duration-1000 transition-all animate-photo`,
+    },
+    {
+      name: "Bootstrap",
+      icon: "/bootstrap.png",
+      class: `h-20 min-w-20 py-5 p-2 rounded-xl grayscale duration-1000 transition-all animate-photo`,
     },
   ];
 
