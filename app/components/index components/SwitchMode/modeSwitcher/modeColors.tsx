@@ -4,9 +4,9 @@ const Colors: any = {
   light: {
     text: {
       textMain: "text-black transition-colors duration-200",
-      textSecondary: "text-emerald-700 transition-colors duration-200",
-      textSecondary2: "text-emerald-500 transition-colors duration-200",
-      twisted: "text-emerald-900 transition-colors duration-200",
+      textSecondary: "text-cyan-700 transition-colors duration-200",
+      textSecondary2: "text-cyan-500 transition-colors duration-200",
+      twisted: "text-cyan-900 transition-colors duration-200",
       git: "/gitHub_icon.png",
       mail: "/contact_icon.png",
       me: "/me_icon.png",
@@ -24,10 +24,10 @@ const Colors: any = {
       bg: "bg-gray-200 transition-background-color duration-200",
       bgSecondary: "bg-gray-300 transition-background-color duration-200",
       main: "black transition-colors duration-200",
-      border: "border-emerald-700 transition-border-color duration-200",
-      borderY: "border-x-gray-200 border-y-emerald-700 transition-border-color duration-200",
-      borderX: "border-x-transparent border-t-transparent border-b-emerald-700 transition-border-color duration-200",
-      borderL: "border-r-transparent border-y-transparent border-l-emerald-700 transition-border-color duration-200",
+      border: "border-cyan-700 transition-border-color duration-200",
+      borderY: "border-x-gray-200 border-y-cyan-700 transition-border-color duration-200",
+      borderX: "border-x-transparent border-t-transparent border-b-cyan-700 transition-border-color duration-200",
+      borderL: "border-r-transparent border-y-transparent border-l-cyan-700 transition-border-color duration-200",
       borderSecondary: "border-black transition-border-color duration-200",
       borderYSecondary: "border-x-gray-200 border-y-black transition-border-color duration-200"
     }
@@ -35,9 +35,9 @@ const Colors: any = {
   dark: {
     text: {
       textMain: "text-gray-400 transition-colors duration-200",
-      textSecondary: "text-emerald-900 transition-colors duration-200",
-      textSecondary2: "text-emerald-700 transition-colors duration-200",
-      twisted: "text-emerald-700 transition-colors duration-200",
+      textSecondary: "text-cyan-900 transition-colors duration-200",
+      textSecondary2: "text-cyan-700 transition-colors duration-200",
+      twisted: "text-cyan-700 transition-colors duration-200",
       git: "/gitHub_icon_white.png",
       mail: "/contact_icon_white.png",
       me: "/me_icon_white.png",
@@ -55,10 +55,10 @@ const Colors: any = {
       bg: "bg-zinc-900 transition-background-color duration-200",
       bgSecondary: "bg-zinc-800 transition-background-color duration-200",
       main: "gray-300 transition-colors duration-200",
-      border: "border-emerald-800 transition-border-color duration-200",
-      borderY: "border-x-transparent border-y-emerald-900 transition-border-color duration-200",
-      borderX: "border-x-transparent border-t-transparent border-b-emerald-900 transition-border-color duration-200",
-      borderL: "border-r-transparent border-y-transparent border-l-emerald-900 transition-border-color duration-200",
+      border: "border-cyan-800 transition-border-color duration-200",
+      borderY: "border-x-transparent border-y-cyan-900 transition-border-color duration-200",
+      borderX: "border-x-transparent border-t-transparent border-b-cyan-900 transition-border-color duration-200",
+      borderL: "border-r-transparent border-y-transparent border-l-cyan-900 transition-border-color duration-200",
       borderSecondary: "border-zinc-800 transition-border-color duration-200",
       borderYSecondary: "border-x-zinc-900 border-y-gray-300 transition-border-color duration-200"
     }

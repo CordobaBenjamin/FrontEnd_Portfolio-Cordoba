@@ -78,7 +78,7 @@ const Proyects = () => {
               {h2}
             </h2>
             <div className={`w-full h-72 xl:h-96  ${overlap2} rounded-xl overflow-hidden my-5 relative ${textMain}`}>
-              <a href="https://github.com/CordobaBenjamin/Cordoba-LogginProyect" target="_blank"> 
+              <a href="" target="_blank"> 
                 <Image
                   src="/sign_up.png"
                   className="inset-0 w-full h-full object-cover grayscale-image transition-transform duration-300 transform scale-100 hover:scale-125"
@@ -105,7 +105,7 @@ const Proyects = () => {
               {ah2}
             </h2>
             <div className={`w-full h-72 xl:h-96  ${overlap2} rounded-xl overflow-hidden my-5 relative ${textMain}`}>
-              <a href="https://github.com/CordobaBenjamin/MarketGaming-eCommerceProyect" target="_blank"> 
+              <a href="" target="_blank"> 
                 <Image
                   src="/market_gaming.png"
                   className="inset-0 w-full h-full object-cover  grayscale-image transition-transform duration-300 transform scale-100 hover:scale-125"
@@ -136,7 +136,7 @@ const Proyects = () => {
               {bh2}
             </h2>
             <div className={`w-full h-72 xl:h-96  ${overlap2} rounded-xl overflow-hidden my-5 relative ${textMain}`}>
-              <a href="https://github.com/CordobaBenjamin/TsProyect-HangMan-Game" target="_blank">
+              <a href="" target="_blank">
                 <Image
                   src="/hangman.png"
                   className="inset-0 w-full h-full object-cover  grayscale-image transition-transform duration-300 transform scale-100 hover:scale-125"
